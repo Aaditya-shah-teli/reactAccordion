@@ -1,0 +1,52 @@
+[
+    {
+      "id": 1,
+      "question": "What is the difference between a binary heap and a binary search tree (BST)?",
+      "answer": "A binary heap is a complete binary tree that follows the heap property (min-heap or max-heap), whereas a BST is a binary tree where the left child is smaller, and the right child is larger than the parent. Heaps are used for priority queues, while BSTs are used for efficient searching and sorting."
+    },
+    {
+      "id": 2,
+      "question": "How does the KMP algorithm improve pattern matching efficiency?",
+      "answer": "The KMP (Knuth-Morris-Pratt) algorithm improves efficiency by preprocessing the pattern to create a longest prefix suffix (LPS) array, which allows skipping unnecessary comparisons, reducing the worst-case time complexity to O(n)."
+    },
+    {
+      "id": 3,
+      "question": "What is the time complexity of Dijkstra’s algorithm using a priority queue?",
+      "answer": "When using a priority queue implemented with a binary heap, Dijkstra's algorithm has a time complexity of O((V + E) log V), where V is the number of vertices and E is the number of edges."
+    },
+    {
+      "id": 4,
+      "question": "Explain the difference between DFS and BFS in graph traversal.",
+      "answer": "DFS (Depth First Search) explores as far as possible along each branch before backtracking, using recursion or a stack. BFS (Breadth First Search) explores all neighbors at the present depth before moving deeper, using a queue. BFS is useful for shortest path problems, while DFS is used in cycle detection and topological sorting."
+    },
+    {
+      "id": 5,
+      "question": "How do you detect a cycle in a directed graph using DFS?",
+      "answer": "A cycle in a directed graph can be detected using DFS by maintaining a recursion stack. If a node is visited and is already in the recursion stack, a cycle is detected. This method runs in O(V + E) time complexity."
+    },
+    {
+      "id": 6,
+      "question": "What is the difference between merge sort and quicksort in terms of time complexity?",
+      "answer": "Merge sort has a worst-case and average-case time complexity of O(n log n), while quicksort has an average-case complexity of O(n log n) but a worst-case complexity of O(n^2) when the pivot is poorly chosen."
+    },
+    {
+      "id": 7,
+      "question": "Explain the Floyd-Warshall algorithm and its time complexity.",
+      "answer": "The Floyd-Warshall algorithm is a dynamic programming approach to find the shortest paths between all pairs of nodes in a weighted graph. It has a time complexity of O(V^3) and is useful for dense graphs."
+    },
+    {
+      "id": 8,
+      "question": "What is the difference between a trie and a binary search tree (BST)?",
+      "answer": "A trie is a tree-based data structure used for storing strings where each node represents a character. A BST, on the other hand, stores key-value pairs in a sorted order. Tries are efficient for prefix-based searching, while BSTs are better for range queries."
+    },
+    {
+      "id": 9,
+      "question": "How does the Rabin-Karp algorithm improve string searching?",
+      "answer": "The Rabin-Karp algorithm improves efficiency by using a rolling hash function to find pattern matches in O(n) on average, compared to O(nm) for brute-force matching."
+    },
+    {
+      "id": 10,
+      "question": "How does the Disjoint Set Union (DSU) optimize union-find operations?",
+      "answer": "DSU optimizes union-find operations using two techniques: path compression, which flattens the tree structure to speed up find operations, and union by rank, which keeps the tree balanced. These optimizations make operations nearly O(1) using the inverse Ackermann function."
+    }
+  ]
